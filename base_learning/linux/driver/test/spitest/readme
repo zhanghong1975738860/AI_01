@@ -1,0 +1,16 @@
+/data # ./spitest -l
+spi mode: 0x20
+bits per word: 8
+max speed: 19200000 Hz (19200 KHz)
+@@@@@@@@@@@@@
+
+FF FF FF FF FF FF
+40 00 00 00 00 95
+FF FF FF FF FF FF
+FF FF FF FF FF FF
+FF FF FF FF FF FF
+DE AD BE EF BA AD
+F0 0D
+/data #
+
+loopback 测试ok
