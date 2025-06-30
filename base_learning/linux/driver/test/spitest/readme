@@ -1,3 +1,4 @@
+硬件短接MISO和MOSI即可
 /data # ./spitest -l
 spi mode: 0x20
 bits per word: 8
