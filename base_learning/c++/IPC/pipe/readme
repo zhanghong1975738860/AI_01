@@ -1,0 +1,7 @@
+cd build
+cmake ..
+make
+
+
+
+./server、./client A、./client B
